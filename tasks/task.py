@@ -9,6 +9,6 @@ def get_longest_word( s: str) -> str:
 
     return max_str
 
-print(get_longest_word('Python is simple and effective!'))
+get_longest_word('Python is simple and effective!')
 
 
