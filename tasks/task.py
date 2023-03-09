@@ -4,8 +4,8 @@ def get_longest_word( s: str) -> str:
     """
     max_str = ''
     for i in s.split(' '):
-        len(max_str) < len(i)
-        max_str = i
+        if len(max_str) < len(i):
+            max_str = i
 
     return max_str
 
